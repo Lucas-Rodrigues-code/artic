@@ -1,3 +1,4 @@
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 
 const articles = [
@@ -55,6 +56,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
+      <Footer />
     </div>
   );
 }
